@@ -23,7 +23,9 @@
 |---|---|
 | 📰 资讯时间轴 | 精选 + 全部动态双视图，按天分组；六个分类：模型 / 产品 / 行业 / 论文 / 教程 / 观点 |
 | 📅 AI 日报 · 周报 · 月报 | 从当天精选内容自动成稿，历史归档可查 |
+| 📮 日报订阅 | 邮箱订阅，每天早上把最新一期日报送到收件箱，随时可退订 |
 | ⬇️ 模型下载库 | 主流开源模型下载源聚合与排行 |
+| 📊 模型榜 | 汇总多个公开榜单的成绩折算成统一分数，按维度排行，不同厂商的模型可横向比较 |
 | 🔧 AI 工具库 | 常用 AI 工具收录与统计 |
 | 🤖 Agent Skill 精选库 | Claude/Agent Skills 精选 + GitHub Skill 仓库排行榜（总榜/周增速/本周新） |
 | 🗓️ 活动日历 | AI 大会、发布会、峰会、智驾活动预告（自动采集 + 人工审核） |
@@ -32,10 +34,10 @@
 
 ## 技术一览
 
-- **前端**：React Router 7（SSR）+ 自绘 SVG 图表，零图表库依赖
+- **前端**：React Router 8（SSR）+ 自绘 SVG 图表，零图表库依赖
 - **后端**：Node 24 原生 TypeScript + PostgreSQL 17 + PM2
 - **内容管线**：多信源采集（RSS / X / 网页列表 / 公众号）→ 大模型逐条评分（双独立评分 + 分级门槛）→ 聚类去重 → 定时发布
-- **基础**：基于开源框架 [AIHOT](https://github.com/)（MIT）深度定制，感谢上游作者 [@数字生命卡兹克](https://github.com/)
+- **基础**：基于开源框架 [AIHOT](https://github.com/KKKKhazix/AIHOT)（MIT）深度定制，感谢上游作者 [@数字生命卡兹克](https://github.com/KKKKhazix)
 
 ## 浏览
 
@@ -43,6 +45,9 @@
 - 全部动态：<https://hot.foxnan.com/all>
 - Agent 接入（RSS / API / MCP）：<https://hot.foxnan.com/agent>
 - Agent Skill 精选库：<https://hot.foxnan.com/skills>
+- 模型榜：<https://hot.foxnan.com/leaderboard>
+- 下载库：<https://hot.foxnan.com/downloads>
+- 活动日历：<https://hot.foxnan.com/events>
 
 ## License
 
