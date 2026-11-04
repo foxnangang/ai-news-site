@@ -37,7 +37,7 @@
 - **前端**：React Router 8（SSR）+ 自绘 SVG 图表，零图表库依赖
 - **后端**：Node 24 原生 TypeScript + PostgreSQL 17 + PM2
 - **内容管线**：多信源采集（RSS / X / 网页列表 / 公众号）→ 大模型逐条评分（双独立评分 + 分级门槛）→ 聚类去重 → 定时发布
-- **基础**：基于开源框架 [AIHOT](https://github.com/KKKKhazix/AIHOT)（MIT）深度定制，感谢上游作者 [@数字生命卡兹克](https://github.com/KKKKhazix)
+- **基础**：基于开源框架 AIHOT（MIT）深度定制，感谢上游作者 @数字生命卡兹克
 
 ## 浏览
 
